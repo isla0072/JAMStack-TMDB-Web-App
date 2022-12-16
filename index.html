@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="style-src 'self';"/>
+    
+    <title>JAMSTACK Movies</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+
+<body id="index">
+  <a href="./index.html">
+    <header class="masthead">
+      <h1>JAMStack Media App</h1>
+    </header>
+  </a>
+
+        <nav class="moviebox">
+            <div class="divmov" id="divmov">
+                        <input 
+                        type="text"
+                        class="movinput" 
+                        id="movinput"
+                        placeholder="Enter Movie Search Term"/>
+                        <button type="submit" id="mvbtn" class="btn btn--small">Search</button> 
+            </div>
+        
+            <div class="divtv" id="divtv">
+                <input 
+                type="text"
+                class="tvinput" 
+                id="tvinput"
+                placeholder="Enter Tv Show Search Term"/>
+                <button id="tvbtn" class="btn btn--small">Search</button>
+            </div>
+        </nav>
+ 
+
+    <main> 
+    <div class="container">
+      <div class="contain-title"><h3 class="movie-title"></h3></div>
+        <div class="mov"><div class="movie-cat"></div></div>
+
+        <div class="contain-title-m"><h3 class="tv-title"></h3></div>
+        <div class="tv"><div class="tv-cat"></div>
+    </div>
+    </main> 
+    
+  </body>
+</html>
+
+

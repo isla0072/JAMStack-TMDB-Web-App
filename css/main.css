@@ -1,0 +1,119 @@
+
+:root {
+    --color-primary: #193f86;
+    --color-primary-light: #678cd2;
+    --color-secondary: #fff6c1;
+    --color-secondary-light: #b4cdfb;
+    --color-secondary-dark: #ffc524;
+    --color-secondary-pale: #f3f8ff;
+    --color-accent: #ffa046;
+  }
+
+.divmov {
+    background-color: var(--color-accent);
+    height: 5vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.divtv {
+    background-color: var(--color-secondary-dark);
+    height: 5vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  @media only screen and (min-width: 45em) {
+
+    .divmov {
+        width: auto;
+    }
+  
+    .divtv {
+      width: auto;
+  }
+  }
+  
+
+  @media only screen and (min-width: 45em) {
+
+    .divmov {
+        width: 50%;
+        float: left;
+        padding-left: 3rem;
+    }
+  
+    .divtv {
+      width: 50%;
+  }
+  }
+
+
+.contain-title {
+  text-align: center;
+  padding-top: 5em;
+}
+
+.contain-title-m {
+  text-align: center;
+}
+
+
+.movinput {
+  border-color: var(--color-secondary-pale);
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  
+}
+
+@media only screen and (min-width: 45em) {
+
+  .movinput {
+      width: auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .movinput {
+      width: 30rem;
+  }
+
+}
+
+
+
+.tvinput {
+  border-color: var(--color-secondary-pale);
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  
+}
+
+@media only screen and (min-width: 45em) {
+
+  .tvinput {
+      width: auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .tvinput {
+      width: 30rem;
+  }
+
+}
